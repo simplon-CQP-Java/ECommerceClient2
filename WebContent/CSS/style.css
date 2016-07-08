@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+div.catalogue {
+  display: inline-block;
+  width: 70%;
+}
+
+div.panier {
+  display: inline-block;
+  position: absolute;
+  width: 29.4%;
+}
+
+div.articles div.article {
+	border: 1px solid #49708A;
+	width: auto;
+	max-width: 250px;
+  word-break: keep-all;
+}
+
+div.articles div.article h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 15px 5px;
+	background-color: #497081;
+	color: #FFF;
+	/*text-align: center;*/
+}
+
+div.articles div.article div.content {
+  padding: 15px;
+}
+
+div.articles div.article form.acheter button {
+	background-color: #13CD4A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #FFF;
+	transition: all .5s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+}
+
+div.articles div.article form.acheter button:hover {
+  background-color: #FFF;
+  color: #13CD44;
+}
+
+div.panier div.actions div.vider {
+	background-color: #B11623;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #FFF;
+	transition: all .5s;
+  	cursor: pointer;
+}
+
+div.panier div.actions div.vider {
+  background-color: #FFF;
+  color: #B11623;
+}
+
+div.acheter-article div.actions button {
+	background-color: #13CD4A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #FFF;
+	transition: all .5s;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+div.acheter-article div.actions button:hover {
+	color: #13CD4A;
+	background-color: #FFF;
+}
+

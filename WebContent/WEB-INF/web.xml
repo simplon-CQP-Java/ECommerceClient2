@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ECommerceClient</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>AcheterArticle</servlet-name>
+    <servlet-class>com.ECommerceClient.jsp.servlet.AcheterArticle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AcheterArticle</servlet-name>
+    <url-pattern>/AcheterArticle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Catalogue</servlet-name>
+    <servlet-class>com.ECommerceClient.jsp.servlet.Catalogue</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjouterArticle</servlet-name>
+    <servlet-class>com.ECommerceClient.jsp.servlet.AjouterArticle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterArticle</servlet-name>
+    <url-pattern>/AjouterArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Catalogue</servlet-name>
+    <url-pattern>/Catalogue</url-pattern>
+  </servlet-mapping>
+</web-app>
